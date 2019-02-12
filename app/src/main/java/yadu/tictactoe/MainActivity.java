@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
     Boolean Clicked=false;
     Button b1;
-    Button b2;
+    Button b2,b3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         b1=(Button)findViewById(R.id.button);
         b2=(Button)findViewById(R.id.button2);
+        b3=(button)findviewbyid(R.id.button2);
     }
     public void setValue(View V){
         if(!Clicked)
